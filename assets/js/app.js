@@ -45,7 +45,7 @@ boton.addEventListener("click", function(e){
 	e.preventDefault();
 
 
-	if(name.value=="" || email.value== "" || city.value==""){
+	if(phone.value=="" || name.value=="" || email.value== "" || city.value==""){
 		enviar.nextElementSibling.innerText = "Todos los datos deben de estar llenos";
 		console.log(enviar.nextElementSibling);
 	}else{
