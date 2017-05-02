@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sprint 3</title>
+	<title>Lyft</title>
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/icomoon/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -11,26 +11,35 @@
 <body>
 	<header id="scrollArriba">
       <div class="menu container">
-      	<img src="assets/img/logo-white.png" alt="logo" class="logo" width="70">
-        <a href="#drive" class="enlace">Drive</a>
-        <a href="#explore" class="enlace">Explore</a>
-        <a href="help" class="enlace">Help</a>
-        <button class="logIn">Log in</button>
+      	<div class="imgHeader">
+      		<img src="assets/img/logo-white.png" alt="logo" class="logo" width="70">
+      	</div>      	
+      	<div class="container-enlace">
+      		<a href="#drive" class="enlace">Drive</a>
+	        <a href="#explore" class="enlace">Explore</a>
+	        <a href="help" class="enlace">Help</a>
+	        <button class="logIn">Log in</button>
+      	</div>        
       </div>
     </header>
     <header id="scrollAbajo">
       <div class="menu container">
-      	<img src="assets/img/logo-pink.png" alt="logo" class="logo" width="70">
-        <a href="#drive" class="enlace">Drive</a>
-        <a href="#explore" class="enlace">Explore</a>
-        <a href="help" class="enlace">Help</a>
-        <button class="logIn">Log in</button>
-        <button class="signUp">Sign Up</button>
+      	<div class="imgHeader">
+      		<img src="assets/img/logo-white.png" alt="logo" class="logo" width="70">
+      	</div> 
+        <div class="container-enlace">
+      		<a href="#drive" class="enlace">Drive</a>
+	        <a href="#explore" class="enlace">Explore</a>
+	        <a href="help" class="enlace">Help</a>
+	        <button class="logIn">Log in</button>
+	        <button class="signUp">Sign Up</button>
+      	</div>        
+        
       </div>
     </header>
     <section id="informationLogIn">
     	<div id="imgLyft">
-    		<video id="videoLyft" class="video">
+    		<video id="videoLyft" class="video" width="1520" height="855">
 				<source src="assets/img/hero-video.mp4" type="video/mp4" />
 				Your browser does not support HTML5 video.
 			</video>
@@ -39,17 +48,20 @@
     		<span id="titleLogIn1" class="block">TURN MILES INTO MONEY</span>
     		<span id="titleLogIn2" class="block">SIGN UP TO DRIVE WITH LYFT</span>
     		<input id="telefonoLyft" class="block inputRegister" type="tel" pattern="^([0-9]\d{7})+$" placeholder="Phone number" maxlength="8">
-    		<img id="error" src="assets/img/error.png" alt="error">
+    		<img class="error" src="assets/img/error.png" alt="error">
     		<input type="text" id="name" class="none inputRegister" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" placeholder="Name">
-    		<img id="error" src="assets/img/error.png" alt="error">
+    		<img class="error" src="assets/img/error.png" alt="error">
     		<input type="email" id="email" class="none inputRegister" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" placeholder="Email">
-    		<img id="error" src="assets/img/error.png" alt="error">
+    		<img class="error" src="assets/img/error.png" alt="error">
     		<input type="text" id="city" class="none inputRegister" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" placeholder="City">
-    		<img id="error" src="assets/img/error.png" alt="error">
+    		<img class="error" src="assets/img/error.png" alt="error">
     		<button id="becomeDriver" class="block">Become a driver</button>
     		<button id="signUpToRide" class="block">Sign up to ride</button>
-    		<h6 class="block">Already applied?Check the status of your application here</h6>
-    		<h6 class="block">Earn money for inviting friends to drive. Learn more</h6>
+    		<div id="divH6">
+    			<h6 class="block">Already applied?Check the status of your application here</h6>
+    			<h6 class="block">Earn money for inviting friends to drive. Learn more</h6>
+    		</div>
+    		
     	</div>
     </section>
     <section id="informationLyft1">
@@ -70,22 +82,22 @@
 	    	</div>
     	</div>
     	<div id="imageCel">
-    		<img src="assets/img/phone.png" alt="phone">
+    		<img src="assets/img/phone.png" alt="phone" width="500" height="480">
     	</div>	    	
     </section>
-    <section id="informationLyft2">
+    <section class="informationLyft2 ">
     	<div id="videoInformation1" class="videoI">
     		<h5>WATCH</h5>
     		<span class="titleVideo">AMPLIFY YOUR RIDE</span>
     		<p class="descriptionVideo">Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
     	</div>
-    	<div class="VideoYouTube">
-    		<iframe width="420" height="345"  src="https://www.youtube.com/embed/fLSmUWOYpKw"></iframe>					
+    	<div class="videoYouTube">
+    		<iframe width="900" height="500"  src="https://www.youtube.com/embed/fLSmUWOYpKw"></iframe>					
     	</div>
     </section>
-    <section id="informationLyft3">
-    	<div class="VideoYouTube">
-    		<iframe width="420" height="345"  src="https://www.youtube.com/embed/v8nyGzOLsdw"></iframe>					
+    <section class="informationLyft2">
+    	<div class="videoYouTube">
+    		<iframe width="900" height="500"  src="https://www.youtube.com/embed/v8nyGzOLsdw"></iframe>					
     	</div>
     	<div id="videoInformation2" class="videoI">
     		<h5>WATCH</h5>
@@ -93,14 +105,14 @@
     		<p class="descriptionVideo">In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride-and sharing her life too.</p>
     	</div>    	
     </section>
-    <section id="informationLyft4">
+    <section class="informationLyft2">
     	<div id="videoInformation3" class="videoI">
     		<h5>WATCH</h5>
     		<span class="titleVideo">A GOOD THING GOING</span>
     		<p class="descriptionVideo">Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
     	</div>
-    	<div class="VideoYouTube">
-    		<iframe width="420" height="345"  src="https://www.youtube.com/embed/xj2VWLV0xCU"></iframe>				
+    	<div class="videoYouTube">
+    		<iframe width="900" height="500"  src="https://www.youtube.com/embed/xj2VWLV0xCU"></iframe>				
     	</div>
     </section>
     <footer>
@@ -126,20 +138,20 @@
 				<a class='d-b' href="#">Press</a>
 				<a class='d-b' href="#">Careers</a>
 			</div>
-			<div class="menu-footer">
-				<img class="img-footer"	src="assets/img/apple-store.svg">
-				<img class="img-footer"	src="assets/img/google-play.png">
-				<img class="img-footer"	src="assets/img/microsoft.png">
+			<div class="img-footer">
+				<img src="assets/img/apple-store.svg" width="150" height="50">
+				<img src="assets/img/google-play.png" width="150" height="50">
+				<img src="assets/img/microsoft.png" width="150" height="50">
 			</div>
 			<div class="box-logo">			
 				<span>
 					<a href="https://www.facebook.com" class="icon-social-facebook-circular icon-footer" target="_blank"></a>
 					<a href="https://www.instagram.com" class="icon-instagram-with-circle icon-footer" target="_blank"></a>
 					<a href="https://www.twitter.com" class="icon-social-twitter-circular icon-footer" target="_blank"></a>
-					</span>
+				</span>
 			</div>
 			<div id="line-footer"></div>		
-			<div class="box-text terms-footer p-a">
+			<div class="terms-footer">
 				<p>&copy;2017 Lyft, Inc.TermsPrivacy</p>
 			</div>			
 		</div>
