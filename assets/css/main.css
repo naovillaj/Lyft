@@ -33,6 +33,11 @@ h6{
 	margin: 15px 0;
 }
 
+#containerBody{
+	height: 100%;
+	width: 1000px;
+}
+
 .menu{
 	background-color: #1D0A32;
 	position: relative;
@@ -109,6 +114,7 @@ h6{
 
 .none{
 	display: none;
+	margin: 10px 0;
 }
 
 video{
