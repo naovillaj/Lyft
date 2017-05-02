@@ -1,0 +1,21 @@
+*{
+	font-family: "Montserrat";
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	background-color: #1D0A32;
+}
+
+#scrollAbajo{
+	display: none;
+}
+
+.none{
+	display: none;
+}

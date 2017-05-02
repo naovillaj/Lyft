@@ -4,8 +4,146 @@
 	<meta charset="UTF-8">
 	<title>Sprint 3</title>
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/icomoon/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="icon" type="image/png" href="assets/img/mustache-lyft.png" sizes="32x32">
 </head>
 <body>
+	<header id="scrollArriba">
+      <div class="menu container">
+      	<img src="assets/img/logo-white.png" alt="logo" class="logo" width="70">
+        <a href="#drive" class="enlace">Drive</a>
+        <a href="#explore" class="enlace">Explore</a>
+        <a href="help" class="enlace">Help</a>
+        <button class="logIn">Log in</button>
+      </div>
+    </header>
+    <header id="scrollAbajo">
+      <div class="menu container">
+      	<img src="assets/img/logo-pink.png" alt="logo" class="logo" width="70">
+        <a href="#drive" class="enlace">Drive</a>
+        <a href="#explore" class="enlace">Explore</a>
+        <a href="help" class="enlace">Help</a>
+        <button class="logIn">Log in</button>
+        <button class="signUp">Sign Up</button>
+      </div>
+    </header>
+    <section id="informationLogIn">
+    	<div id="imgLyft">
+    		<video id="videoLyft" class="video">
+				<source src="assets/img/hero-video.mp4" type="video/mp4" />
+				Your browser does not support HTML5 video.
+			</video>
+    	</div>
+    	<div id="informationEntry1">
+    		<span id="titleLogIn1" class="block">TURN MILES INTO MONEY</span>
+    		<span id="titleLogIn2" class="block">SIGN UP TO DRIVE WITH LYFT</span>
+    		<input id="telefonoLyft" class="block inputRegister" type="tel" pattern="^([0-9]\d{7})+$" placeholder="Phone number" maxlength="8">
+    		<img id="error" src="assets/img/error.png" alt="error">
+    		<input type="text" id="name" class="none inputRegister" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" placeholder="Name">
+    		<img id="error" src="assets/img/error.png" alt="error">
+    		<input type="email" id="email" class="none inputRegister" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" placeholder="Email">
+    		<img id="error" src="assets/img/error.png" alt="error">
+    		<input type="text" id="city" class="none inputRegister" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" placeholder="City">
+    		<img id="error" src="assets/img/error.png" alt="error">
+    		<button id="becomeDriver" class="block">Become a driver</button>
+    		<button id="signUpToRide" class="block">Sign up to ride</button>
+    		<h6 class="block">Already applied?Check the status of your application here</h6>
+    		<h6 class="block">Earn money for inviting friends to drive. Learn more</h6>
+    	</div>
+    </section>
+    <section id="informationLyft1">
+    	<div id="containerInformation">
+    		<div class="divInformationLyft">
+	    		<span class="spanTitle">A RIDE IN MINUTS</span>
+	    		<span class="spanDescription">Request a ride and you'll be on your way in minutes</span>
+	    		<span class="spanDescription">Request. Ride. Repeat</span>
+	    	</div>
+	    	<div class="divInformationLyft">
+	    		<span class="spanTitle">SERIOUS ABOUT SAFETY</span>
+	    		<span class="spanDescription">From knowing the color of your driver's car to our 24/7</span>
+	    		<span class="spanDescription">Trust & Safety Team, we got you</span>
+	    	</div>
+	    	<div class="divInformationLyft">
+	    		<span class="spanTitle">HAPPY DRIVERS.<br>HAPPY RIDERS.</span>
+	    		<span class="spanDescription">Ride with us and you'll see why 9 out of 10 rides end with five stars</span>
+	    	</div>
+    	</div>
+    	<div id="imageCel">
+    		<img src="assets/img/phone.png" alt="phone">
+    	</div>	    	
+    </section>
+    <section id="informationLyft2">
+    	<div id="videoInformation1" class="videoI">
+    		<h5>WATCH</h5>
+    		<span class="titleVideo">AMPLIFY YOUR RIDE</span>
+    		<p class="descriptionVideo">Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+    	</div>
+    	<div class="VideoYouTube">
+    		<iframe width="420" height="345"  src="https://www.youtube.com/embed/fLSmUWOYpKw"></iframe>					
+    	</div>
+    </section>
+    <section id="informationLyft3">
+    	<div class="VideoYouTube">
+    		<iframe width="420" height="345"  src="https://www.youtube.com/embed/v8nyGzOLsdw"></iframe>					
+    	</div>
+    	<div id="videoInformation2" class="videoI">
+    		<h5>WATCH</h5>
+    		<span class="titleVideo">JUNE</span>
+    		<p class="descriptionVideo">In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride-and sharing her life too.</p>
+    	</div>    	
+    </section>
+    <section id="informationLyft4">
+    	<div id="videoInformation3" class="videoI">
+    		<h5>WATCH</h5>
+    		<span class="titleVideo">A GOOD THING GOING</span>
+    		<p class="descriptionVideo">Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+    	</div>
+    	<div class="VideoYouTube">
+    		<iframe width="420" height="345"  src="https://www.youtube.com/embed/xj2VWLV0xCU"></iframe>				
+    	</div>
+    </section>
+    <footer>
+    	<div id="container-footer">
+			<div class="menu-footer">
+				<h3>LOG IN</h3>
+				<a class='d-b' href="#">Help</a>
+				<a class='d-b' href="#">Cities</a>
+				<a class='d-b' href="#">Airpoorts</a>
+				<a class='d-b' href="#">Fare Estimate</a>
+			</div>
+			<div class="menu-footer">
+				<h3>PARTNER</h3>
+				<a class='d-b' href="#">Partnerships</a>
+				<a class='d-b' href="#">Enterprise</a>
+				<a class='d-b' href="#">Ambassadors</a>
+				<a class='d-b' href="#">Developers</a>
+			</div>
+			<div class="menu-footer">
+				<h3>LEARN</h3>
+				<a class='d-b' href="#">Safety</a>
+				<a class='d-b' href="#">Blog</a>
+				<a class='d-b' href="#">Press</a>
+				<a class='d-b' href="#">Careers</a>
+			</div>
+			<div class="menu-footer">
+				<img class="img-footer"	src="assets/img/apple-store.svg">
+				<img class="img-footer"	src="assets/img/google-play.png">
+				<img class="img-footer"	src="assets/img/microsoft.png">
+			</div>
+			<div class="box-logo">			
+				<span>
+					<a href="https://www.facebook.com" class="icon-social-facebook-circular icon-footer" target="_blank"></a>
+					<a href="https://www.instagram.com" class="icon-instagram-with-circle icon-footer" target="_blank"></a>
+					<a href="https://www.twitter.com" class="icon-social-twitter-circular icon-footer" target="_blank"></a>
+					</span>
+			</div>
+			<div id="line-footer"></div>		
+			<div class="box-text terms-footer p-a">
+				<p>&copy;2017 Lyft, Inc.TermsPrivacy</p>
+			</div>			
+		</div>
+    </footer>
 	<script src="assets/js/app.js"></script>
 </body>
 </html>
