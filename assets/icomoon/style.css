@@ -46,3 +46,6 @@
   display: inline-block;
 }
 
+.icon-instagram-with-circle:hover, .icon-social-twitter-circular:hover, .icon-social-facebook-circular:hover {
+  color: #FF00BF;
+}
